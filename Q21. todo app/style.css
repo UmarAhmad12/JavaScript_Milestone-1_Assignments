@@ -1,0 +1,115 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: #73aec8;
+    font-family: 'poppins', sans-serif;
+}
+
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+    padding: 100px 0px;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: #266783;
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #91c8c4;
+    color: #133442;
+    margin-bottom: 50px;
+}
+
+.container label {
+    font-size: 25px;
+    color: #0a1d25;
+    font-weight: 500;
+    transform: translateY(-65px);
+    transition: .5s;
+}
+
+.container input {
+    padding-top: 5px;
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    background: none;
+    border-bottom: 1px solid #ffffff;
+    transition: .5s;
+    color: #ffffff;
+}
+ 
+.container input:focus {
+    background-color: #d6ffff;
+    color: #191818;
+}
+.container button {
+    width: 100%; 
+    padding: 12px 20px;
+    color: #e2ebeb;
+    background-color: #03222e;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.container button:hover {
+    background-color: #e2e1e1;
+    color: #000000;
+    transform: scale(0.9);
+}
+
+section div:last-child {
+    padding: 15px;
+    background-color: #266783;
+    width: 300px;
+    min-height: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+section div:last-child p {
+    text-align: center;
+    color: #133442;
+    text-shadow: 0 0 13px #0f484c;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+
+section div:last-child ul {
+    padding-inline: 25px;
+}
+section div:last-child li {
+    color: #0d123e;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 5px;
+}
+
